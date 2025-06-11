@@ -1,0 +1,9 @@
+### POST enfant
+POST http://localhost:8081/children?username=admin
+Authorization: Basic dXNlcjpkNDFkYmE0NS01ZDk1LTQyNzQtYWExMi03Y2Y3ZTEzZjYzMjI=
+Content-Type: application/json
+
+{
+  "nom": "Ali",
+  "dateNaissance": "2015-01-10"
+}

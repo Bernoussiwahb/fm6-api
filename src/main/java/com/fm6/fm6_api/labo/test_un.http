@@ -1,4 +1,4 @@
-### 1) Créer un enfant
+### Créer un enfant
 POST http://localhost:8081/children?username=admin
 Content-Type: application/json
 
@@ -7,13 +7,13 @@ Content-Type: application/json
   "dateNaissance": "2015-01-10"
 }
 
-### 2) Lister les enfants du partenaire
+### Lister les enfants du partenaire
 GET http://localhost:8081/children?username=admin
 
-### 3) Récupérer un enfant par ID
+### Récupérer un enfant par ID
 GET http://localhost:8081/children/1
 
-### 4) Mettre à jour l’enfant
+### Mettre à jour l’enfant
 PUT http://localhost:8081/children/1
 Content-Type: application/json
 
@@ -23,5 +23,5 @@ Content-Type: application/json
   "statut": "actif"
 }
 
-### 5) Supprimer l’enfant
+### Supprimer l’enfant
 DELETE http://localhost:8081/children/1

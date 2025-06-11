@@ -41,4 +41,9 @@ public class ChildService {
                         .map(ChildMapper::toDto)
                         .toList();
     }
+
+    public ChildDto getById(Long id){ /* TODO */ return null; }
+    public ChildDto update(Long id, ChildDto dto){ /* TODO */ return null; }
+    public void delete(Long id){ /* TODO */ }
+
 }
